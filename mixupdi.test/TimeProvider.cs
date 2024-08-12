@@ -71,7 +71,6 @@ public class TimeProvider : IClassFixture<TimeProviderFixture>
         var invoker = new System.CommandLine.Invocation.InvocationContext(parseResult);
         fixture.TimeCommandHandler.Invoke(invoker);
         Assert.NotNull(parseResult);
-        //timezone was changed, expecting 01:00:00 in invariant culture
         Assert.Equal("21:02:03\r\n", testconsole.ToString());
 
     }
@@ -90,8 +89,6 @@ public class TimeProvider : IClassFixture<TimeProviderFixture>
         var invoker = new System.CommandLine.Invocation.InvocationContext(parseResult);
         fixture.TimeCommandHandler.Invoke(invoker);
         Assert.NotNull(parseResult);
-        // timezone was not changed, expecting 5:00:00 AM
-        //Assert.Equal("5:00:00 AM\r\n", testconsole.ToString());
         //now using invariant culture
         Assert.Equal("01:02:03\r\n", testconsole.ToString());
 
