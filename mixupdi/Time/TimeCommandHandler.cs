@@ -6,7 +6,7 @@ using System.CommandLine.Parsing;
 
 
 namespace mixupdi.Time;
-internal class TimeCommandHandler : ICommandHandler
+public class TimeCommandHandler : ICommandHandler
 {
     private readonly TimeProvider _timeProvider;
     private readonly ILogger<TimeCommandHandler> _logger;
