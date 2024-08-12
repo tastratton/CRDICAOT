@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "mixupdi": {
+      "commandName": "Project",
+      //"commandLineArgs": "time -z -4"
+      "commandLineArgs": "time"
+    }
+  }
+}

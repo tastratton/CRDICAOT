@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mixupdi", "mixupdi\mixupdi.csproj", "{C7BFF4A0-2817-45A4-8E6A-264B490DD2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{126589D7-17D4-4F8C-AA95-305C8D48FAD2}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7BFF4A0-2817-45A4-8E6A-264B490DD2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BFF4A0-2817-45A4-8E6A-264B490DD2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BFF4A0-2817-45A4-8E6A-264B490DD2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BFF4A0-2817-45A4-8E6A-264B490DD2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8045BF90-5F49-4E0E-ACC7-C1C5EFCD6B40}
+	EndGlobalSection
+EndGlobal
